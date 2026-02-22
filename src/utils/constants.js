@@ -1,0 +1,59 @@
+export const ROLES = {
+  SUPER_ADMIN: "superadmin",
+  ADMIN: "ADMIN",
+  MANAGER: "MANAGER",
+  EMPLOYEE: "EMPLOYEE",
+};
+
+export const TASK_STATUS = {
+  TODO: "TODO",
+  IN_PROGRESS: "IN_PROGRESS",
+  DONE: "DONE",
+};
+
+export const TASK_PRIORITY = {
+  LOW: "LOW",
+  MEDIUM: "MEDIUM",
+  HIGH: "HIGH",
+};
+
+export const PROJECT_STATUS = {
+  PLANNED: "PLANNED",
+  IN_PROGRESS: "IN_PROGRESS",
+  COMPLETED: "COMPLETED",
+};
+
+export const PROJECT_PRIORITY = {
+  LOW: "LOW",
+  MEDIUM: "MEDIUM",
+  HIGH: "HIGH",
+};
+
+export const SUBSCRIPTION_PLANS = {
+  FREE: "FREE",
+  BASIC: "BASIC",
+  PRO: "PRO",
+  ENTERPRISE: "ENTERPRISE",
+};
+
+export const PAYMENT_STATUS = {
+  SUCCESS: "SUCCESS",
+  FAILED: "FAILED",
+  PENDING: "PENDING",
+};
+
+export const PAYMENT_METHOD = {
+  UPI: "UPI",
+  CARD: "CARD",
+  NETBANKING: "NETBANKING",
+};
+
+export const TENANT_STATUS = {
+  ACTIVE: "ACTIVE",
+  INACTIVE: "INACTIVE",
+};
+
+export const USER_STATUS = {
+  ACTIVE: "ACTIVE",
+  DISABLED: "DISABLED",
+};
